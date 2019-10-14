@@ -1,0 +1,11 @@
+@PACKAGE_INIT@
+
+# Put additional configurations steps/options/variables
+# for example:
+# if(@FT_WITH_BZIP2@)
+#   find_package(BZip2 CONFIG REQUIRED)
+# endif()
+#
+check_required_components( "@cmg_package_name@" )
+
+include ("${CMAKE_CURRENT_LIST_DIR}/@cmg_package_name@-targets.cmake")

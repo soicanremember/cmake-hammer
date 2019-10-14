@@ -22,3 +22,4 @@ set_property( TARGET ${current_target} PROPERTY PUBLIC_HEADER ${current_target_p
 set_property( TARGET ${current_target} PROPERTY CMG_INSTALL_INCLUDE_DIR_SUBFOLDER say_world )
 
 cmg_set_target_common_defaults( ${current_target} )
+cmg_setup_package_common_install_and_export_targets( say_world TARGETS ${current_target} )

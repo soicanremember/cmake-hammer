@@ -3,6 +3,7 @@ language: cpp
 os:
   - linux
   - windows
+  - osx
 
 before_script:
   - mkdir build

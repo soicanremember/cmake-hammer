@@ -1,8 +1,8 @@
 language: cpp
 
 os:
-  -linux
-  -windows
+  - linux
+  - windows
 
 before_script:
   - mkdir build

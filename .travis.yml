@@ -1,9 +1,8 @@
 language: cpp
+
 os:
-  -linux
-    -compiler: gcc
   -windows
-    -compiler: mingw
+  -linux
 
 before_script:
   - mkdir build
